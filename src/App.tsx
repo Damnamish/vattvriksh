@@ -2,8 +2,10 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
+import MridulaProfile from './components/MridulaProfile';
 import Services from './components/Services';
 import Impact from './components/Impact';
+import MediaSection from './components/MediaSection';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -13,8 +15,10 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <MridulaProfile />
       <Services />
       <Impact />
+      <MediaSection />
       <Contact />
       <Footer />
     </div>
