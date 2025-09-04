@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Award, BookOpen, Users, Globe } from 'lucide-react';
+import { ExternalLink, Award, BookOpen, Users, Globe, Trophy } from 'lucide-react';
 
 const MridulaProfile = () => {
   const achievements = [
@@ -23,6 +23,13 @@ const MridulaProfile = () => {
       description: "Transforming individuals and teams through holistic, heart-centric learning",
       link: "https://www.ceoinsightsindia.com/leader/mridula-sankhyayan-transforming-individuals-and-teams-through-holistic-heartcentric-and-engaging-learning-experiences-cid-2267.html",
       color: "purple"
+    },
+    {
+      icon: Trophy,
+      title: "Goldman Sachs HCM Award",
+      description: "Recognition for excellence in Human Capital Management and leadership development",
+      link: "https://www.goldmansachs.com/worldwide/india/careers/hcm-award",
+      color: "orange"
     }
   ];
 
@@ -30,7 +37,8 @@ const MridulaProfile = () => {
     const colors = {
       blue: "bg-blue-100 text-blue-600 border-blue-200 hover:bg-blue-200",
       green: "bg-green-100 text-green-600 border-green-200 hover:bg-green-200",
-      purple: "bg-purple-100 text-purple-600 border-purple-200 hover:bg-purple-200"
+      purple: "bg-purple-100 text-purple-600 border-purple-200 hover:bg-purple-200",
+      orange: "bg-orange-100 text-orange-600 border-orange-200 hover:bg-orange-200"
     };
     return colors[color as keyof typeof colors] || colors.blue;
   };
