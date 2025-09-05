@@ -97,11 +97,19 @@ const MridulaProfile = () => {
             </div>
           </div>
           
-          <div className="bg-white rounded-2xl shadow-xl p-8">
-            <div className="text-center mb-8">
-              <div className="bg-gradient-to-br from-blue-100 to-indigo-100 rounded-full p-6 w-24 h-24 mx-auto mb-6 flex items-center justify-center">
-                <Globe className="text-blue-600" size={48} />
+          <div className="space-y-8">
+            {/* Professional Photo Placeholder */}
+            <div className="bg-white rounded-2xl shadow-xl p-8 text-center">
+              <div className="bg-gradient-to-br from-blue-100 to-indigo-100 rounded-full p-8 w-32 h-32 mx-auto mb-6 flex items-center justify-center">
+                <Globe className="text-blue-600" size={64} />
               </div>
+              <h4 className="text-2xl font-bold text-gray-900 mb-2">Mridula Sankhyayan</h4>
+              <p className="text-gray-600 mb-4">Founder & Lead Consultant</p>
+              <p className="text-sm text-gray-500">25+ Years of Excellence in Talent Development</p>
+            </div>
+            
+            <div className="bg-white rounded-2xl shadow-xl p-8">
+            <div className="text-center mb-8">
               <h4 className="text-2xl font-bold text-gray-900 mb-4">Thought Leadership</h4>
             </div>
             
@@ -119,6 +127,7 @@ const MridulaProfile = () => {
                 <div className="text-2xl font-bold text-green-600">100+</div>
                 <div className="text-sm text-gray-600">Organizations</div>
               </div>
+            </div>
             </div>
           </div>
         </div>

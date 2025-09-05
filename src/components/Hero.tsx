@@ -28,16 +28,25 @@ const Hero = () => {
           
           <div className="relative">
             <div className="bg-white rounded-2xl shadow-2xl p-8">
+              {/* Professional image placeholder */}
+              <div className="text-center mb-6">
+                <div className="bg-gradient-to-br from-blue-100 to-indigo-100 rounded-full p-6 w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                  <Users className="text-blue-600" size={48} />
+                </div>
+                <h4 className="text-lg font-semibold text-gray-900">Mridula Sankhyayan</h4>
+                <p className="text-sm text-gray-600">Founder & Lead Consultant</p>
+              </div>
+              
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                   <div className="bg-blue-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                    <Users className="text-blue-600" size={32} />
+                    <Target className="text-blue-600" size={32} />
                   </div>
                   <h3 className="font-semibold text-gray-900">Leadership Coaching</h3>
                 </div>
                 <div className="text-center">
                   <div className="bg-green-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                    <Target className="text-green-600" size={32} />
+                    <Users className="text-green-600" size={32} />
                   </div>
                   <h3 className="font-semibold text-gray-900">Talent Development</h3>
                 </div>
